@@ -1,5 +1,4 @@
 source 'http://rubygems.org'
-<<<<<<< HEAD
 ruby "2.6.3"
 
 gem 'listen'
@@ -13,18 +12,6 @@ gem 'selenium-webdriver'
 gem 'simplecov'
 
 gem 'mandrill'  
-=======
-ruby "2.5.3"
-
-gem 'listen'
-gem 'rails-controller-testing'
-
-gem 'pg'
-#gem 'sqlite3'
-
-
-gem 'mandrill'	
->>>>>>> 72c4dcd8233df5e0735eaa5550a28e7bc7152d95
 gem 'devise'
 gem 'fog'   #, '1.6.0'
 gem 'unf' 
@@ -35,25 +22,14 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'koala'
 gem 'will_paginate-bootstrap'
-<<<<<<< HEAD
-=======
-
->>>>>>> 72c4dcd8233df5e0735eaa5550a28e7bc7152d95
 gem 'pry'
 gem 'aws-sdk-s3' #aws-s3'
 gem 'aws-sdk'
 #gem 'event-calendar', :require => 'event_calendar'
-<<<<<<< HEAD
 gem 'rails', '5.2.1'
 gem 'railties', '5.2.1'
 gem  'bootstrap-sass', '~> 3.4.1'
 
-=======
-
-gem 'rails', '5.2.1'
-gem 'railties', '5.2.1'
-gem  'bootstrap-sass', '~> 3.2.0'
->>>>>>> 72c4dcd8233df5e0735eaa5550a28e7bc7152d95
 gem 'autoprefixer-rails'
 #gem 'sprockets'
 gem "will_paginate", "~> 3.0.6" 
@@ -68,25 +44,10 @@ gem 'friendly_id', '~> 5.0.0'
 #gem 'rmagick'
 
 group :test, :development do
-<<<<<<< HEAD
 #  gem 'factory_girl_rails'
   gem 'capybara'
 #  gem 'mocha', '~> 1.1.0'
 
-=======
-  gem 'minitest'
-  gem 'simplecov'
-  gem 'simplecov-lcov'
-	#gem 'undercover'
-  gem 'selenium-webdriver'
-#  gem 'factory_girl_rails'
-#  gem 'mocha', '~> 1.1.0'
-  gem 'apparition', '~> 0.2.0'
-  gem 'capybara'
-  gem 'capybara-screenshot', :group => :test
-  gem 'listen'
-  gem 'rails-controller-testing'
->>>>>>> 72c4dcd8233df5e0735eaa5550a28e7bc7152d95
 end
 
 group :production do
@@ -122,4 +83,4 @@ end
 
 group :development do
     gem 'rails_real_favicon'
-end
+end 
