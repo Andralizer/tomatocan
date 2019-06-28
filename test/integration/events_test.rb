@@ -312,5 +312,3 @@ class EventsTest < ActionDispatch::IntegrationTest
   test "link to reward on live show page redirects" do
   end
 end
-
-
