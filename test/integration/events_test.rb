@@ -11,7 +11,7 @@ class EventsTest < ActionDispatch::IntegrationTest
     fill_in(id: 'user_password', with: 'user1234')
     click_on(class: 'form-control btn-primary')
   end
-
+  
   def signup()
     visit ('/')
     click_on('Sign Up', match: :first)
@@ -62,8 +62,8 @@ class EventsTest < ActionDispatch::IntegrationTest
     fill_in(id:'event_desc', with: 'This is a description of the event')
     click_button(id: 'eventSubmit')
     #assert_text('Intern')#does the event show up on the homepage?
-    #click_on('Sign out')
-    #click_on('Join Discussion')
+    click_on('Sign out')
+    click_on('Join Discussion')
     #assert_text('Live Show')
   end
   test "Should not save event if title of livestream show is not given" do
