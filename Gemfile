@@ -7,7 +7,7 @@ gem 'capybara-screenshot', :group => :test
 
 gem 'pg'
 #gem 'sqlite3'
-gem	'stripe-ruby-mock', :require => 'stripe_mock'
+gem 'stripe-ruby-mock', :require => 'stripe_mock'
 gem 'selenium-webdriver'
 gem 'simplecov'
 
