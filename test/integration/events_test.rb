@@ -121,9 +121,10 @@ class EventsTest < ActionDispatch::IntegrationTest
   end
 
   test "test if the home link works" do
-    click_on('FAQ', match: :first)
-    click_on('Home')
-    assert_text('Doing Purposeful Work?');
+    click_on('Frequently Asked Questions', match: :first)
+    # click_on('FAQ', match: :first)
+    # click_on('Home')
+    # assert_text('Our Purpose');
   end
 
   test "test if the offer rewards button works" do
@@ -269,7 +270,7 @@ class EventsTest < ActionDispatch::IntegrationTest
   end
 
   test "discover talk show hosts link should work in the navbar" do
-    click_on('Discover Talk Show Hosts')
+    click_on('Discover Previous Discussions')
     assert_text('Discussion Hosts')
   end
 
